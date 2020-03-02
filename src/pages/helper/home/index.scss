@@ -1,0 +1,103 @@
+.view_wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.view_header_image{
+    width: 100%;
+    height:484px;
+}
+
+.view_header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height:528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .header_image{
+        width: 160px;
+        height: 160px;
+        border: 50%;
+        box-shadow:0px 0px 16px 0px rgba(54,130,241,1);
+        border-radius: 50%;
+    }
+    .header_company_title{
+        font-size:40px;
+        font-weight:500;
+        color:#fff;
+        line-height:40px;
+        margin-top: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 80%;
+    }
+    .header_item{
+        margin-top: 36px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header_line{
+        width:56px;
+        height:2px;
+        background: #FFF;
+        border-radius:2px;
+        opacity:0.8;
+    }
+    .header_name{
+        font-size:32px;
+        font-weight:400;
+        color:#FFF;
+        line-height:32px;
+        margin: 0px 16px;
+        opacity: 0.8;
+    }
+}
+
+.view_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    .content_item{
+        margin: 0px 32px;
+        height:102px;
+        background:#FFFFFF;
+        box-shadow:0px 0px 24px 0px rgba(211,211,211,0.5);
+        border-radius:8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .display_flex_row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .item_flag{
+        margin-left: 32px;
+        width:8px;
+        height:24px;
+        background:#4184E7;
+        border-radius:6px;
+    }
+    .item_name{
+        margin-left: 16px;
+        font-size:32px;
+        font-weight:500;
+        color:#26334C;
+        line-height:32px;
+    }
+    .iconnext {
+        color: #26334c;
+        font-size: 36px;
+        margin-right: 20px;
+      }
+}

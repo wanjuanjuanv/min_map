@@ -1,0 +1,78 @@
+@import '../../common/styles/theme.scss';
+
+page{
+    height: 100%;
+}
+.container{
+    position: relative;
+    height: 100%;
+    background: linear-gradient(to bottom, #1968c2, #3a96ee, #2f65bf);
+    .row_logo{
+        padding-top: 200px;
+        .image_logo{
+            display: block;
+            width: 200px;
+            height: 200px; 
+            margin: 0 auto;
+        }
+    }
+
+    .row_field{
+        margin-top: 20px;
+        padding: 10px 50px;
+        .row_field_box{
+            position: relative;
+            .icon_field{
+                position: absolute;
+                height: 40px;
+                width: 40px;
+                top:50%;
+                left: 20px;
+                z-index: 99;
+                transform: translateY(-50%)
+            }
+        }
+    }
+  
+}
+
+.van-cell{
+    padding-left: 40px !important;
+}
+
+.field{
+    padding: 0 10rpx 0 60rpx;
+}
+
+.row-submit{
+    margin:20rpx 50rpx;
+    color:#fff;
+    height:100rpx;
+    line-height:100rpx;
+    border-radius:10rpx;
+    text-align:center;
+    background-color:#62a0ef;
+}
+.icon_people{
+    position:absolute;
+    bottom:40rpx;
+    left:50%;
+    transform:translateX(-50%);
+    display:block;
+    width:100rpx;
+    height:60rpx;
+}
+
+.at-input{
+    padding-left: 70px;
+    margin-left: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.at-input__input{
+    padding-right: 26px;
+}
+.at-input__icon{
+    padding: 8px;
+}
